@@ -1,0 +1,53 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+#home{
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 6px 8px;
+    background-color: grey;
+    color: black;
+}
+#home2{
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 6px 8px;
+    color: grey;
+    background-color: white;
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .boxes{
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+  .button {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+
+  #grey {
+    background-color: grey;
+  }
+  #white {
+    background-color: white;
+  }
+  #blue {
+    background-color: blue;
+  }
+  #yellow {
+    background-color: yellow;
+  }
